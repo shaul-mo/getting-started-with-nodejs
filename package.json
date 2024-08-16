@@ -1,15 +1,15 @@
 {
-  "name": "mongdb",
+  "name": "getting-started-with-nodejs", // Replace with your desired name
   "version": "1.0.0",
-  "description": "",
+  "description": "A web application using Express, Handlebars, and MongoDB Atlas.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",  //  Add a start script for running your app
+    "test": "jest" // Replace with your preferred test command
   },
-  "author": "",
+  "author": "Shaul Mo",
   "license": "ISC",
   "dependencies": {
-    "@handlebars/allow-prototype-access": "^1.0.5",
     "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
     "exphbs": "^1.2.0",

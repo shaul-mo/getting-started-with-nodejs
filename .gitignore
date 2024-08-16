@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+*.log
+.DS_Store
+
+# Environment Variables
+.env
+
+# Temporary Files
+*.tmp
+*.bak
+*~
